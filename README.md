@@ -3,8 +3,6 @@ Welcome to the Neural Network Models and Use Cases repository! This repository i
 
 📂 Repository Structure  
 Notebooks : `All the notebooks with different types of ANN`  
-images_generated: `Every model epoch sumsample of images`  
-
 
 Type: Convolutional Neural Network (CNN)  
 
@@ -16,7 +14,9 @@ Type: Feedforward Neural Network (FNN)
 
 Type: Generative Adversarial Network (GAN)  `GPU and CPU compared`
 
-Type: BERT  `CPU not possile so GPU`
+Type: BERT  `CPU not possile so GPU`  
+
+images_generated: `Every model epoch sumsample of images`  
 
 
 📊 Evaluation and Metrics

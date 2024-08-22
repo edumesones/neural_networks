@@ -29,18 +29,9 @@ Visualizations: Includes sample predictions, loss/accuracy plots, and image reco
 🚀 Getting Started
 To run these notebooks:
 
-Clone the repository:
-bash
-Copy code
+Clone the repository:  
 git clone https://github.com/edumesones/neural_networks.git
-Install the required dependencies:
-bash  
-Copy code
-pip install -r requirements.txt
-Open and run any notebook using Jupyter:
-bash
-Copy code  
-jupyter notebook  
+
 📝 Contributions  
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request.
 

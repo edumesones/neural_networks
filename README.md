@@ -1,39 +1,26 @@
-🧠 Neural Network Models and Use Cases  
-Welcome to the Neural Network Models and Use Cases repository! This repository is a collection of Jupyter notebooks that demonstrate various types of neural networks applied to different real-world tasks. Each notebook provides a detailed walkthrough, from data preprocessing to model evaluation, making it an excellent resource for learning and experimenting with neural networks.
+# Neural Network Models & Use Cases
 
-📂 Repository Structure  
-Notebooks : `All the notebooks with different types of ANN`  
+A collection of Jupyter notebooks implementing the main families of neural networks,
+each applied to a concrete task and walked through end-to-end (preprocessing → model →
+training → evaluation). Built as a hands-on reference for the core deep-learning
+architectures.
 
-Type: Convolutional Neural Network (CNN)  
+## Architectures covered
 
+| Type | Notebook focus | Notes |
+|------|----------------|-------|
+| **FNN** — Feedforward NN | tabular / baseline classification | |
+| **CNN** — Convolutional NN | image classification | |
+| **RNN** — Recurrent NN | sequence modelling | |
+| **GAN** — Generative Adversarial Net | image generation | GPU vs CPU compared; sample outputs per epoch in `images_generated/` |
+| **BERT** — Transformer | NLP fine-tuning | GPU required |
 
-Type: Recurrent Neural Network (RNN)  
+The `images_generated/` folder shows the GAN's output sampled at each training epoch,
+so you can see learning progress visually.
 
+## Tech stack
+Python · TensorFlow / Keras · NumPy · Jupyter · (GPU recommended for GAN/BERT)
 
-Type: Feedforward Neural Network (FNN)  
-
-Type: Generative Adversarial Network (GAN)  `GPU and CPU compared`
-
-Type: BERT  `CPU not possile so GPU`  
-
-images_generated: `Every model epoch sumsample of images`  
-
-
-📊 Evaluation and Metrics
-Each notebook not only builds and trains a neural network but also includes comprehensive evaluation metrics:
-
-Accuracy
-Precision, Recall, and F1 Score
-Confusion Matrices
-Visualizations: Includes sample predictions, loss/accuracy plots, and image reconstructions.
-🚀 Getting Started
-To run these notebooks:
-
-Clone the repository:  
-git clone https://github.com/edumesones/neural_networks.git
-
-📝 Contributions  
-Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request.
-
-📜 License
-This repository is licensed under the MIT License. Feel free to use and modify the code for your own projects.
+## Use
+Open any notebook and run top-to-bottom; each is self-contained with its own data
+loading and training loop.
